@@ -1,11 +1,9 @@
-# Build and Release Folders
+# ignore all bin directories
+# matches "bin" in any subfolder
 bin/
-bin-debug/
-bin-release/
 
-# Other files and folders
-.settings/
+# ignore all target directories
+target/
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# ignore all files ending with ~
+*~
